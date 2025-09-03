@@ -1,0 +1,27 @@
+h1 { 
+    text-align: center;
+    padding: 50px;
+}
+
+h2 {
+    text-align: center
+}
+
+article {
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+section {
+    max-width: 300px;
+}
+
+img {
+    width: 100%;
+}
+
+* {
+    margin: auto;
+}
