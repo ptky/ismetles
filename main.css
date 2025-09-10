@@ -1,10 +1,25 @@
+body {
+    background-color: wheat;
+}
 h1 { 
     text-align: center;
     padding: 50px;
+    border: solid 5px black;
+    border-radius: 20px;
+    max-width: 200px;
+    padding: 20px;
+    margin: auto;
+    background-color: azure;
 }
 
 h2 {
     text-align: center
+}
+
+a {
+    
+    text-decoration: none;
+    
 }
 
 article {
@@ -12,16 +27,36 @@ article {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 30px;
+    margin: auto;
 }
 
 section {
     max-width: 300px;
+    margin-top: 20px;
+    gap:  10px;
+    border: solid 5px black;
+    -webkit-box-shadow: 0px 0px 15px 5px #FF1212; 
+    box-shadow: 0px 0px 15px 5px #FF1212;
 }
 
 img {
     width: 100%;
 }
 
-* {
-    margin: auto;
+
+.kep123 {
+    height: 200px;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 800px) {
+    article {
+        grid-template-columns: 1fr;
+        
+    }
+    section {
+        margin: auto;
+        margin-top: 40px;
+    }
+
 }
